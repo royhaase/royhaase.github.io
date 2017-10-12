@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+  <head>
+  <!-- 
+
+      -->
+    <meta charset="UTF-8">
+    <title>Roy Haase Portfolio</title>
+	<meta name="Roy Haase Portfolio" content="Portfolio">
+	
+
+	
+	<link href="style.index.css" rel="stylesheet" />
+	
+	<!-- fullpage.CSS-->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.css" />
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+	<!-- fullpage .js-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.js"></script>
+	
+	<script src="index.js"></script>
+
+	
+	</head>
+	
+	
+	
+  <body>
+  
+  
+   <!-- #loader-wrapper will be a full width and height div covering the whole screen and #loader will be our spinning elements in the middle of the screen. -->
+	   <div id="loader-wrapper">
+			<div id="loader"></div>
+			
+			<div class="loader-section section-left"></div>
+			<div class="loader-section section-right"></div>
+			</div>
+	  
+	 
+
+			
+			
+		<div id="navbar">
+			<div class="name">
+				<h1>ROY HAASE</h1>
+			</div>
+		<a href="#page1">Home</a>
+		<a href="#page2">Work</a>
+		<a href="#page3">Contact</a>
+		</div>
+	 
+	 
+	 
+	 
+	 
+	 
+	<div id="fullpage">
+	
+		
+		
+		<div class="section" data-anchor="page1">
+		
+		    <div id="bg1"></div>
+				
+			
+			
+			<div class="bio">
+			     <h2>HI.</h2>
+				<h1>I'm a freelance Web/App developer based out of Chicago, Illinois.  I also enjoy working on other creative projects that involve Graphic/Database design.</h1>
+			</div>
+			
+		</div>
+			
+	
+
+		<div class="section" data-anchor="page2"> 	
+
+		    <div id="bg2"></div>
+			
+
+			<div class="projects">
+				<h1> Here's some things I enjoy working on</h1>
+			</div>
+			
+			
+			<div class="project1">
+				<img src="images/3.jpg" class="grow" height="200" width="200" /> 
+			</div>
+			
+			<div class="project2">
+				<img src="images/4.jpg" class="grow" height="200" width="200" /> 
+			</div>
+			
+			<div class="project3">
+				<img src="images/5.jpg" class="grow" height="200" width="200" /> 
+			</div>
+			
+			
+			
+			
+		
+		</div>
+			
+			
+			
+			
+			
+			
+			
+		<div class="section" data-anchor="page3"> 
+		
+			<div class="projects">
+				<h1> Send me a message at any time!</h1>
+			</div>
+			
+			
+			<form class="form-style-7">
+			<ul>
+			<li>
+				<label for="name">Name</label>
+				<input type="text" name="name" maxlength="100">
+				<span>Enter your full name here</span>
+			</li>
+			<li>
+				<label for="email">Email</label>
+				<input type="email" name="email" maxlength="100">
+				<span>Enter a valid email address</span>
+			</li>
+			<li>
+				<label for="url">Website</label>
+				<input type="url" name="url" maxlength="100">
+				<span>Your website address (eg: http://www.google.com)</span>
+			</li>
+			<li>
+				<label for="bio">About You</label>
+				<textarea name="bio" onkeyup="adjust_textarea(this)"></textarea>
+				<span>Say something about yourself</span>
+			</li>
+			<li>
+				<input type="submit" value="Send This" >
+			</li>
+			</ul>
+			</form>
+
+			
+		</div>
+			
+			
+		
+	</div>
+  
+
+	
+  </body>
+</html>
